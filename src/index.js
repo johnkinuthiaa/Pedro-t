@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {Suspense} from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
@@ -6,13 +6,16 @@ import reportWebVitals from './reportWebVitals';
 // eslint-disable-next-line no-unused-vars
 import Card from "./card.jsx"
 import Header from "./header.jsx";
+import GetUser from "./form.jsx";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
       <Header/>
-    <App />
-    <Card/>
+      <GetUser/>
+      <Suspense/>
+    {/*<App />*/}
+    {/*<Card/>*/}
   </React.StrictMode>
 );
 
