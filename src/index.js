@@ -8,17 +8,25 @@ import Card from "./card.jsx"
 import Header from "./header.jsx";
 import GetUser from "./form.jsx";
 import Ex from "./propsExercise";
+import AgeChecker from "./ternary";
+import Arrays from "./arrays";
+import IsGasPlanet from "./planets";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
       <Header/>
-    {/*  <GetUser/>*/}
-    {/*  <Suspense/>*/}
-    {/*<App />*/}
-    {/*<Card/>*/}
+      <GetUser/>
+      <Suspense/>
+    <App />
+    <Card/>
+      <AgeChecker/>
       <Ex/>
+      <Arrays/>
+      <IsGasPlanet/>
   </React.StrictMode>
+
+
 );
 
 // If you want to start measuring performance in your app, pass a function
