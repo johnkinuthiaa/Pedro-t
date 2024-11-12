@@ -7,15 +7,17 @@ import reportWebVitals from './reportWebVitals';
 import Card from "./card.jsx"
 import Header from "./header.jsx";
 import GetUser from "./form.jsx";
+import Ex from "./propsExercise";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
       <Header/>
-      <GetUser/>
-      <Suspense/>
-    <App />
-    <Card/>
+    {/*  <GetUser/>*/}
+    {/*  <Suspense/>*/}
+    {/*<App />*/}
+    {/*<Card/>*/}
+      <Ex/>
   </React.StrictMode>
 );
 
