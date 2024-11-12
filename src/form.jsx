@@ -11,11 +11,13 @@ export default function GetUser(){
     )
 }
 const User =( (props)=> {
+    const{name,age,email} =props
     return (
+
         <div>
-            <p>{props.name}</p>
-            <p>{props.age}</p>
-            <p>{props.email}</p>
+            <p>{name}</p>
+            <p>{age}</p>
+            <p>{email}</p>
         </div>
     )
 })

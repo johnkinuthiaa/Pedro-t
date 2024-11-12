@@ -14,8 +14,8 @@ root.render(
       <Header/>
       <GetUser/>
       <Suspense/>
-    {/*<App />*/}
-    {/*<Card/>*/}
+    <App />
+    <Card/>
   </React.StrictMode>
 );
 
