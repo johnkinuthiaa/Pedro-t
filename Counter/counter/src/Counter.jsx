@@ -16,8 +16,8 @@ export default function CounterApp(){
     return(
         <div className={"text-center"}>
             <h1 className={"font-bold text-3xl"}>{count}</h1>
-            <button onClick={addCount}>add count</button>
-            <button onClick={reduceCount}>reduce</button>
+            <button onClick={addCount} className={"bg-blue-700"}>add count</button>
+            <button onClick={reduceCount} className={"bg-red-700"}>reduce</button>
             <button onClick={resetCount}>set count to 0</button>
         </div>
     )
