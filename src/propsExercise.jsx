@@ -1,7 +1,7 @@
 
 export default function Ex(){
     return(
-        <div>
+        <div className={""}>
             <p>Students Details</p>
             <User name={"john"} age={19} loves={["java","javaScript"]}/>
             <User name={"Angie"} age={19} loves={["python"]}/>

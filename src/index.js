@@ -11,6 +11,7 @@ import Ex from "./propsExercise";
 import AgeChecker from "./ternary";
 import Arrays from "./arrays";
 import IsGasPlanet from "./planets";
+import Counting from "./states";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -24,6 +25,7 @@ root.render(
       <Ex/>
       <Arrays/>
       <IsGasPlanet/>
+      <Counting/>
   </React.StrictMode>
 
 

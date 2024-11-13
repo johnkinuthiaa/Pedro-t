@@ -14,8 +14,8 @@ function App() {
   return (
       <div className={" flex justify-center mt-2"}>
           <h1>{count}</h1>
-          <button onClick={handleAdd} className={"bg-blue-700 mr-1 p-1"}>add</button>
-          <button onClick={handleRemove} className={"bg-red-700 p-1"}>reduce</button>
+          <button onClick={handleAdd} className={"bg-blue-700 mr-1 p-1 text-white border-b-sky-300"}>add</button>
+          <button onClick={handleRemove} className={"bg-red-700 p-1 text-white text-1xl"}>reduce</button>
       </div>
 
 

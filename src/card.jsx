@@ -1,10 +1,9 @@
 import './index.css';
 export default function Card(){
-    const name ="john";
     return(
 
         <div className={"names"}>
-            <User/>
+            <User name={"john akngo"}/>
             <p>i love javascript and java</p>
             <p>i love using them</p>
 
@@ -12,10 +11,10 @@ export default function Card(){
         </div>
     )
 };
-const User = (()=>{
+const User = ((props)=>{
     return (
         <div className={"user-details"}>
-            <p>john kinuthia</p>
+            <p>{props.name}</p>
             <p>19</p>
             <p>aspiring polyglot</p>
         </div>
