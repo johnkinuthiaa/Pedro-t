@@ -2,14 +2,15 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
-import {User} from "./card";
+import CounterApp from "./Counter";
+
+
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
-      <User name={"john"} age={19} status={"single fullstack dev"}/>
+      <CounterApp/>
   </React.StrictMode>
 );
 

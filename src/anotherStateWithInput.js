@@ -30,15 +30,15 @@ import {useState} from "react";
 
 
 // }
-// export default function ChangeColor(){
-//     const[color,setColor] =useState("black");
-//     function changeColorOfText() {
-//         setColor(color==="black"?"blue":"black")
-//     }
-//     return(
-//         <div>
-//             <h1 style={{color:color}}>Hi my name is johntey</h1>
-//             <button onClick={changeColorOfText}>change Color</button>
-//         </div>
-//     )
-// }
+export default function ChangeColor(){
+    const[color,setColor] =useState("black");
+    function changeColorOfText() {
+        setColor(color==="black"?"blue":"black")
+    }
+    return(
+        <div>
+            <h1 style={{color:color}}>Hi my name is johntey</h1>
+            <button onClick={changeColorOfText}>change Color</button>
+        </div>
+    )
+}
