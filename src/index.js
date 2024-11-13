@@ -12,6 +12,7 @@ import AgeChecker from "./ternary";
 import Arrays from "./arrays";
 import IsGasPlanet from "./planets";
 import Counting from "./states";
+import ChangeOnInput from "./anotherStateWithInput";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -26,6 +27,7 @@ root.render(
       <Arrays/>
       <IsGasPlanet/>
       <Counting/>
+      <ChangeOnInput/>
   </React.StrictMode>
 
 
